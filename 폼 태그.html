@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>폼태그연습</title>
+</head>
+    <h1>로그인</h1>
+    <form action="/login.php" method="get">
+    <p>아이디:<input type="text" name="id" /></p>
+    <p>비밀번호:<input type="password" name="pwd" /></p>
+    <p>생년월일:<input type="text" name="birth"</p>
+    <p>자기소개:<textarea cols="20" rows="5"></textarea> </p>
+    <p>나라:<input type="text" list="contries" name="국가">
+    <datalist id="contries">
+        <option value="한국"></option>
+        <option value="미국"></option>
+        <option value="중국"></option>
+    </datalist> </p>
+    <p>가고싶은곳:<input type="text" list="trip" name="여행지">
+    <datalist id="trip">
+        <option value="전주"></option>
+        <option value="완주"></option>
+        <option value="부산"></option>
+    </datalist> </p>
+    <p>남자:<input type="radio" name="sung" value="1"> 여자<input type="radio" name="sung" value="2"> </p>
+    <p>
+        취미:등산<input type="checkbox" name="hob" value="등산">노래<input type="checkbox" name="hob" value="노래">
+    </p>
+    <p><input type="submit" value="전송"</p>
+    <p><input type="reset" value="초기화" </p>
+    </form>
+</body>
+</html>
