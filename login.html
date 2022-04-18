@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4월18일1교시 폼태그연습t</title>
+</head>
+<body>
+    <table border="1">
+    <h1>회원가입하기</h1><br>
+    <form action="/login.php" method="get">
+    <tr><td colspan="2" style="text-align: center;">회원가입</tr>
+        <tr><td>
+        <p>이름
+        <td><input type="text" name="name" /></p></td>
+        <tr><td>
+        <p>사용자ID
+        <td><input type="text" name="id" /></p></td></tr>
+        <tr><td>
+        <p>암호
+        <td><input type="password" name="pwd"</p></td></tr>
+        <tr><td>
+        <p>암호확인
+        <td><input type="password" name="pwd"></p></td></tr>
+        <tr><td>
+        <p>주민등록번호
+        <td><input type="text" name="jumin">-<input type="passward" name="jumin2" </td></tr></p>
+        <tr><td>
+        <p>전화번호
+        <td><input type="text" name="number1">-<input type="text" name="number2">-<input type="text" name="number3"></td></tr></p>
+        <tr><td>
+        <p>성별
+        <td>남자<input type="radio" name="sung" value="1"> 여자<input type="radio" name="sung" value="2"></p>
+        <tr><td>
+        <p>직업
+        <td><input type="text" list="job" name="직업">
+        <datalist id="job">
+            <option value="학생"></option>
+            <option value="직장인"></option>
+            <option value="군인"></option>
+            <option value="무직"></option></datalist></td></p>
+        <tr><td>
+        <p>email주소
+        <td><input type="text" name="email" </td></tr></p>
+        <p>
+        <tr><td colspan="2" style="text-align: center;"><input type="submit" value="가입신청"> <input type="reset" value="취소"></td>  </tr>
+        </p>
+    </form>
+</table>
+</body>
+</html>
