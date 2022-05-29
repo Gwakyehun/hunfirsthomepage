@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게임세상 고객센터</title>
+    <style>
+        *{
+            background-color: wheat;
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        a{
+            display: inline-block;
+            float: right;
+            font-size: 18px;
+            font-style:normal;
+            
+        }
+        #fir{
+            font-size: 35px;   
+        }
+        #fin{
+            font-size: 19px;
+            text-align: center;
+            bottom: (-50%;)
+        }
+        input:focus{
+            font-size: 120%;
+        }
+        tr{
+            border: 1px solid #bcbcbc;
+            width: 200%;
+            height: 100px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 23px;
+        }
+        h2{
+            text-align: center;
+            font-size: 13px;
+            color: gray;
+        }
+        span{
+            width: 150px;
+            height: 150px;
+            border: 2px solid;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/login.php" method="get">
+        <div colsapn="2">
+            <div><a href="#">쪽지함</a></div>
+            <div><a href="#">마이페이지</a></div>
+            <div><a href="#">회원가입</a></div>
+            <div><a href="#">로그인</a></div>
+        </div>
+        
+        <div class="main">
+            <div id="fir" class="title">
+                &nbsp;<strong>게임세상 고객센터</strong><hr>
+            </div>&nbsp;
+    </form>
+            <span>게임 운영정책
+            위반항목 자세히 보기</span>
+                <h1>문의유형 선택</h1>
+                <h2>문의유형을 선택하면 문의 유형에 따라 자주찾는 도움말을 확인할 수 있습니다<br>
+                 찾는 도움말이 보이지 않으면[도움말 검색]을 이용해 원하는 도움말을 찾아주세요
+                </h2>
+                 <table width="600" border="1" align="center">
+                <tr><td>아이디정보/보안</td>
+                <td>&nbsp;&nbsp;&nbsp;결제&nbsp;&nbsp;&nbsp;</td>&nbsp;
+                <td>&nbsp;오류문의&nbsp;</td>
+                <td>&nbsp;복구문의&nbsp;</td>
+                <td>실행/설치 관련오류</td>
+                </tr>
+    </table>
+        <form action="" >
+                <label id="fin">
+                    &nbsp;<center>검색창:<input type="text"></center>
+                </label>
+        </form>
+</body>
+</html>
